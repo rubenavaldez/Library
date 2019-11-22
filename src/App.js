@@ -16,10 +16,11 @@ class App extends Component{
   return (
     <div className="App">
       <Nav/>
+      <Title title={title}/>
       <MediaCard title="title" body={body} />
-      <Wallpaper>
+      <Wallpaper/>
         
-      </Wallpaper>
+     
       
       
       {/* <header className="App-header">
